@@ -1,0 +1,18 @@
+get
+http://127.0.0.1:3000/messages
+post
+{
+    "user": "viktor",
+    "message": "men me ustroiva"
+}
+patch
+{
+    "user": "viktor",
+    "messageOld": "men me ustroiva",
+    "messageNew": "izleze mi rabota i nqma da moga togava"
+}
+del
+{
+    "user": "dancho",
+    "message": "kum 8 ,ako e udobno"
+}
